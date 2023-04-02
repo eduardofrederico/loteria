@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     @IBAction func generateGame() {
         switch scGameType.selectedSegmentIndex {
         case 0:
-            showNumbers(for: .megasena)
+            showNumbers(for: .megasena) //gerando números da Mega-Sena
         default:
             showNumbers(for: .quina)
         }
